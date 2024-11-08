@@ -1,0 +1,339 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chaeyeon&#39;s Portfolio</title>
+    <meta name="description" content="세상에서 가장 사랑스러운 AI 개발자">
+    <meta name="author" content="Chaeyeon">
+    <link rel="shortcut icon" href="images/me.ico" type="images/x-icon">
+    <!--OG (Open Graph Data)-->
+    <meta property="og:title" content="Chaeyeon의 포트폴리오">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="배포후 생성된 URL">
+    <meta property="og:image" content="배포후 생성된 이미지 URL">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <!--defer 적용시 전체 적용뒤 마지막에 동작된다-->
+    <script src="./js/main.js" defer></script>
+    <script src="./js/projects.js" defer></script>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/133260cff9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header__logo">
+            <img class="header__logo__img" src="images/me.ico" alt="logo">
+            <h1 class="header__logo__title"><a href="#">Chaeyeon</a></h1>
+        </div>
+        <nav class="header__nav">
+            <ul class="header__menu">
+                <li><a href="#home" class="header__menu__item active">홈으로</a></li>
+                <li><a href="#about" class="header__menu__item">채연</a></li>
+                <li><a href="#skills" class="header__menu__item">스킬</a></li>
+                <li><a href="#work" class="header__menu__item">경험</a></li>
+                <li><a href="#license" class="header__menu__item">자격증</a></li>
+                <li><a href="#contact" class="header__menu__item">연락처</a></li>
+            </ul>
+        </nav>
+        <button class="header__toggle">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+    </header>
+
+    <!-- Main -->
+     <main>
+        <!-- Home -->
+        <section id="home">
+    <div class="home__container">
+        <img class="home__avatar" src="./images/me.ico" alt="Chaeyeon's Profile">
+        <h2 class="home__title">안녕하세요! <br><strong class="home__title--strong">김채연</strong>입니다.</h2>
+        <p class="home__description">세상에서 가장 사랑스러운 대한민국 AI 개발자입니다.</p>
+        <a class="home__contact" href="#contact">연락처</a>
+    </div>    
+    </section>
+
+        <!-- about -->
+        <section id="about" class="section max-container">
+            <h2 class="title">김채연</h2>
+            <p class="description">어릴 때부터 새로운 기계나 가전 제품이 오면 상품 설명서를 자세히 보는 것을 좋아했습니다. LG ThinQ 냉장고,에어컨,세탁기,공기청정기,TV 제품을 개발하기 위해 원어민 문장 수집과 데이터 사전 수집을 통해 원어민 문장 확인 및 오류 검토를 완료한 후 문장 추가 와 데이터 사전을 추가를 하였습니다. 오류가 났던 사항들은 문장, 데이터 사전 필터 처리를 하여 성능을 끌어올렸습니다. 제품 개발하며 그 제품들의 중요한 스펙도 찾아서 어떻게 하면 성능을 끌어올릴지 고민해가며 디버깅을 했습니다. 안되면 될때까지 고민한 끝에 50만 문장의 성능이 20프로에서 99프로까지 끌어올려 그 결과 5년이라는 세월동안 인정을 받으며 주임에서 선임이라는 직위로 승진하게 되었습니다. 제품 출시 이후 구매 고객들의 제품 만족도 평가 상승으로 뿌듯함을 느꼈습니다. 그 후로 관련 분야로 영역을 넓힐 수 있었고 저 스스로도 인공지능 개발자로서 한단계 더 성장했음을 느낄 수 있었습니다. 경력을 쌓으면서 리눅스에 대한 지식도 많이 얻을수 있었고, ThInQ 인공지능 제품에 대한 개발에 이해가 넓어졌습니다. 많은 경험을 통하여 인공지능에 대한 매력을 느껴 목표를 충실히 달성했습니다.</p>
+            <ul class="majors">
+                <li class="major">
+                    <i class="fa-brands fa-html5 major__icon"></i>
+                    <p class="major__title">Front-end</p>
+                    <p>HTML, CSS, JavaScript, Node.js, React</p>
+                </li>
+                <li class="major">
+                    <i class="fa-solid fa-mobile major__icon"></i>
+                    <p class="major__title">Mobile</p>
+                    <p>React-Native, Android, iOS, Kotlin</p>
+                </li>
+                <li class="major">
+                    <i class="fa-solid fa-server major__icon"></i>
+                    <p class="major__title">Back-end</p>
+                    <p>Node.js, FastAPI, Java, GraphQL</p>
+                </li>
+            </ul>
+            <ul class="jobs">
+                <li class="job">
+                    <img class="job__img" src="./images/logo.jpg" alt="LG logo">
+                    <div>
+                        <p class="job__name">LGThinQ 협력사 인공지능 엔지니어</p>
+                        <p class="job__period">2018~2023</p>
+                    </div>
+                </li>
+            </ul>
+            <ul class="jobs">
+                <li class="job">
+                    <img class="job__img" src="./images/coupang.jpg" alt="쿠팡">
+                    <div>
+                        <p class="job__name">상품 등록 및 재고 관리</p>
+                        <p class="job__period">2015~2016</p>
+                    </div>
+                </li>
+            </ul>
+            <ul class="jobs">
+                <li class="job">
+                    <img class="job__img" src="./images/univlogo.jpg" alt="강남대학교">
+                    <div>
+                        <p class="job__name">조교</p>
+                        <p class="job__period">2014~2015</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <!-- skills -->
+        <section id="skills" class="section">
+            <div class="max-container">
+                <h2 class="title">기술</h2>
+                <p class="description">언어 및 도구</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla aut fugit, ea eveniet praesentium deleniti ipsa dolores error temporibus amet repudiandae quibusdam, voluptatum beatae perferendis, ut rem natus. Facere, corrupti?</p>
+                <div class="skills">
+                    <section class="skills__coding">
+                        <h3 class="skills__title">언어</h3>
+                            <ul>
+                                <li class="bar">
+                                    <div class="bar__metadata">
+                                        <span>HTML</span><span>98%</span>
+                                    </div>
+                                    <div class="bar__bg">
+                                        <div class="bar__value" style='width: 98%'><div>
+                                    </div>
+                                </li>
+                                <li class="bar">
+                                    <div class="bar__metadata">
+                                        <span>CSS</span><span>88%</span>
+                                    </div>
+                                    <div class="bar__bg">
+                                        <div class="bar__value" style='width: 88%'><div>
+                                    </div>
+                                </li>
+                                <li class="bar">
+                                    <div class="bar__metadata">
+                                        <span>JavaScript</span><span>95%</span>
+                                    </div>
+                                    <div class="bar__bg">
+                                        <div class="bar__value" style='width: 95%'><div>
+                                    </div>
+                                </li>
+                                <li class="bar">
+                                    <div class="bar__metadata">
+                                        <span>React</span><span>75%</span>
+                                    </div>
+                                    <div class="bar__bg">
+                                        <div class="bar__value" style='width: 75%'><div>
+                                    </div>
+                                </li>
+                                <li class="bar">
+                                    <div class="bar__metadata">
+                                        <span>Node.js</span><span>80%</span>
+                                    </div>
+                                    <div class="bar__bg">
+                                        <div class="bar__value" style='width: 80%'><div>
+                                    </div>
+                                </li>
+                            </ul>
+                    </section>
+
+                    <section class="skills__tools">
+                        <h3 class="skills__title">도구</h3>
+                        <ul>
+                            <li>Visual Studio Code</li>
+                            <li>Pycharm</li>
+                            <li>Jupyter notebook</li>
+                            <li>Colab</li>
+                            <li>Xcode</li>
+                        </ul>
+                    </section>
+                    <section class="skills__etc">
+                        <h3 class="skills__title">기타</h3>
+                        <ul>
+                            <li>Git</li>
+                            <li>SVN</li>
+                            <li>Linux</li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+        <!-- work -->
+        <section id="work" class="section">
+            <div class="max-container">
+            <h2 class="title">포트폴리오</h2>
+            <p class="description">Projects</p>
+            <ul class="categories">
+                <li>
+                    <button class="category category--selected" data-category="all">ALL <span class="category__count">10</span>
+                    </button>
+                </li>
+                <li>
+                    <button class="category" data-category="front-end">Front-end <span class="category__count">3</span>
+                    </button>
+                </li>
+                <li>
+                    <button class="category"  data-category="mobile">Mobile <span class="category__count">5</span>
+                    </button>
+                </li>
+                <li>
+                    <button class="category"  data-category="Back-end">Back-end <span class="category__count">2</span>
+                    </button>
+                </li>
+            </ul>
+            <ul class="projects">
+                <li class="project" data-type="front-end">
+                    <a href="#" target="_blank">
+                        <img src="./images/car.jpg" alt="project1" class="project__img">
+                        <div class="project__metadata">
+                            <h3 class="project__title">Project #1</h3>
+                            <p>클론코딩 사이트</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="project" data-type="back-end">
+                    <a href="#" target="_blank">
+                        <img src="./images/car.jpg" alt="project1" class="project__img">
+                        <div class="project__metadata">
+                            <h3 class="project__title">Project #1</h3>
+                            <p>클론코딩 사이트</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="project" data-type="mobile">
+                    <a href="#" target="_blank">
+                        <img src="./images/car.jpg" alt="project1" class="project__img">
+                        <div class="project__metadata">
+                            <h3 class="project__title">Project #1</h3>
+                            <p>클론코딩 사이트</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="project" data-type="back-end">
+                    <a href="#" target="_blank">
+                        <img src="./images/car.jpg" alt="project1" class="project__img">
+                        <div class="project__metadata">
+                            <h3 class="project__title">Project #1</h3>
+                            <p>클론코딩 사이트</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="project" data-type="front-end">
+                    <a href="#" target="_blank">
+                        <img src="./images/car.jpg" alt="project1" class="project__img">
+                        <div class="project__metadata">
+                            <h3 class="project__title">Project #1</h3>
+                            <p>클론코딩 사이트</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="project" data-type="mobile">
+                    <a href="#" target="_blank">
+                        <img src="./images/car.jpg" alt="project1" class="project__img">
+                        <div class="project__metadata">
+                            <h3 class="project__title">Project #1</h3>
+                            <p>클론코딩 사이트</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="project" data-type="Front-end">
+                    <a href="#" target="_blank">
+                        <img src="./images/car.jpg" alt="project1" class="project__img">
+                        <div class="project__metadata">
+                            <h3 class="project__title">Project #1</h3>
+                            <p>클론코딩 사이트</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="project" data-type="back-end">
+                    <a href="#" target="_blank">
+                        <img src="./images/car.jpg" alt="project1" class="project__img">
+                        <div class="project__metadata">
+                            <h3 class="project__title">Project #1</h3>
+                            <p>클론코딩 사이트</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        </section>
+
+        <!-- license -->
+        <section id="license" class="section max-container">
+            <h2 class="title">자격증</h2>
+            <p class="description">국가 기술 자격증</p>
+            <ul class="licenses">
+                <li class="license">
+                    <img class="license__img" src="./images/license.jpg" alt="정보처리기사">
+                    <div class="license__bubble">
+                    <p><a href="#" class="license__bubble__name">산업인력공단</a></p>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro optio assumenda consequuntur? Excepturi optio atque eius doloribus repellat tempore accusantium est ullam voluptates fuga qui consequuntur, enim libero ipsum maxime.
+                    </p>
+                </div>
+                </li>
+                <li class="license">
+                    <img class="license__img" src="./images/license2.jpg" alt="SQLD">
+                    <div class="license__bubble">
+                    <p><a href="#" class="license__bubble__name">Kdata(한국데이터산업진흥원)</a></p>    
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro optio assumenda consequuntur? Excepturi optio atque eius doloribus repellat tempore accusantium est ullam voluptates fuga qui consequuntur, enim libero ipsum maxime.
+                    </p>
+                </div>
+                </li>
+                <li class="license">
+                    <img class="license__img" src="./images/license.jpg" alt="데이터 라벨러">
+                    <div class="license__bubble">
+                    <p><a href="#" class="license__bubble__name">데이터 라벨</a></p>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro optio assumenda consequuntur? Excepturi optio atque eius doloribus repellat tempore accusantium est ullam voluptates fuga qui consequuntur, enim libero ipsum maxime.
+                    </p>
+                </div>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Arrow up -->
+        <aside>
+            <a class="arrow-up" href="#home" title="위로">
+                <i class="fa-solid fa-arrow-up"></i>
+            </a>
+        </aside>
+     </main>
+     <!-- Footer -->
+      <footer id="contact" class="section">
+        <div class="max-container">
+        <h2 class="title">연락주세요!</h2>
+        <p class="description">bablove12@naver.com</p>
+        <ul class="contact__links">
+            <li><a class="contact__link" href="https://github.com/bablove127" target="_blank" title="깃허브"><i class="fa-brands fa-github"></i></a></li>
+            <li><a class="contact__link" href="https://github.com/bablove127" target="_blank" title="깃허브"><i class="fa-brands fa-github"></i></a></li>
+        </ul>
+        <p>ⓒChaeyeon - All rights reserved</p>
+        </div>
+      </footer>
+</body>
+</html>
